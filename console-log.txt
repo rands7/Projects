@@ -1,0 +1,258 @@
+лист. 24, 2016 10:03:53 AM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'source' to 'org.eclipse.jst.jee.server:shop' did not find a matching property.
+лист. 24, 2016 10:03:53 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version:        Apache Tomcat/8.5.6
+лист. 24, 2016 10:03:53 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Oct 6 2016 20:15:31 UTC
+лист. 24, 2016 10:03:53 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server number:         8.5.6.0
+лист. 24, 2016 10:03:53 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 7
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            6.1
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          amd64
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             D:\Java\JDK\jre
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_60-b27
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         D:\Java\Tomcat\apache-tomcat-8.5.6
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=D:\Java\Tomcat\apache-tomcat-8.5.6
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dwtp.deploy=D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.endorsed.dirs=D:\Java\Tomcat\apache-tomcat-8.5.6\endorsed
+лист. 24, 2016 10:03:54 AM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dfile.encoding=UTF-8
+лист. 24, 2016 10:03:54 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: D:\Java\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\RAD\Embarcadero\RAD Studio\7.0\bin;C:\Users\Public\Documents\RAD Studio\7.0\Bpl;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Brackets\command;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%M2_HOME%\bin;C:\Program Files\Apache Maven\apache-maven-3.3.9\bin;.
+лист. 24, 2016 10:03:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+лист. 24, 2016 10:03:55 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+лист. 24, 2016 10:03:55 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-nio-8009"]
+лист. 24, 2016 10:03:55 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+лист. 24, 2016 10:03:55 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 4012 ms
+лист. 24, 2016 10:03:55 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+лист. 24, 2016 10:03:55 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.5.6
+лист. 24, 2016 10:03:56 AM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+лист. 24, 2016 10:04:04 AM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+лист. 24, 2016 10:04:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+10:04:04,321 {INFO} ContextLoader.initWebApplicationContext:285 - Root WebApplicationContext: initialization started
+лист. 24, 2016 10:04:04 AM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+10:04:04,691 {DEBUG} StandardServletEnvironment.addLast:109 - Adding [servletConfigInitParams] PropertySource with lowest search precedence
+10:04:04,692 {DEBUG} StandardServletEnvironment.addLast:109 - Adding [servletContextInitParams] PropertySource with lowest search precedence
+10:04:04,703 {DEBUG} StandardServletEnvironment.addLast:109 - Adding [jndiProperties] PropertySource with lowest search precedence
+10:04:04,703 {DEBUG} StandardServletEnvironment.addLast:109 - Adding [systemProperties] PropertySource with lowest search precedence
+10:04:04,707 {DEBUG} StandardServletEnvironment.addLast:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:04:04,707 {DEBUG} StandardServletEnvironment.<init>:126 - Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,jndiProperties,systemProperties,systemEnvironment]
+10:04:04,722 {DEBUG} StandardServletEnvironment.replace:174 - Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+10:04:04,723 {INFO} XmlWebApplicationContext.prepareRefresh:573 - Refreshing Root WebApplicationContext: startup date [Thu Nov 24 10:04:04 EET 2016]; root of context hierarchy
+10:04:04,865 {DEBUG} StandardEnvironment.addLast:109 - Adding [systemProperties] PropertySource with lowest search precedence
+10:04:04,865 {DEBUG} StandardEnvironment.addLast:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:04:04,865 {DEBUG} StandardEnvironment.<init>:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:04:04,891 {INFO} XmlBeanDefinitionReader.loadBeanDefinitions:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/shopmvc-servlet.xml]
+10:04:04,923 {DEBUG} DefaultDocumentLoader.loadDocument:73 - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+10:04:05,057 {DEBUG} PluggableSchemaResolver.getSchemaMappings:141 - Loading schema mappings from [META-INF/spring.schemas]
+10:04:05,120 {DEBUG} PluggableSchemaResolver.getSchemaMappings:147 - Loaded schema mappings: {http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/cache/spring-cache-4.2.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-4.1.xsd=org/springframework/aop/config/spring-aop-4.1.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.1.xsd=org/springframework/jdbc/config/spring-jdbc-4.1.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.1.xsd=org/springframework/web/servlet/config/spring-mvc-4.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.3.xsd=org/springframework/security/config/spring-security-3.0.3.xsd, http://www.springframework.org/schema/security/spring-security-2.0.1.xsd=org/springframework/security/config/spring-security-2.0.1.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.1.xsd=org/springframework/scripting/config/spring-lang-4.1.xsd, http://www.springframework.org/schema/context/spring-context-4.0.xsd=org/springframework/context/config/spring-context-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd=org/springframework/web/servlet/config/spring-mvc-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-4.2.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-4.1.xsd=org/springframework/beans/factory/xml/spring-tool-4.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-4.1.xsd=org/springframework/ejb/config/spring-jee-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/task/spring-task-4.2.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/cache/spring-cache-4.1.xsd=org/springframework/cache/config/spring-cache-4.1.xsd, http://www.springframework.org/schema/aop/spring-aop-4.0.xsd=org/springframework/aop/config/spring-aop-4.0.xsd, http://www.springframework.org/schema/security/spring-security-2.0.xsd=org/springframework/security/config/spring-security-2.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.0.xsd=org/springframework/jdbc/config/spring-jdbc-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd=org/springframework/web/servlet/config/spring-mvc-4.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-4.0.xsd=org/springframework/scripting/config/spring-lang-4.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd=org/springframework/web/servlet/config/spring-mvc-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-4.1.xsd=org/springframework/beans/factory/xml/spring-beans-4.1.xsd, http://www.springframework.org/schema/tool/spring-tool-4.0.xsd=org/springframework/beans/factory/xml/spring-tool-4.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.2.xsd=org/springframework/transaction/config/spring-tx-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-4.0.xsd=org/springframework/ejb/config/spring-jee-4.0.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/task/spring-task-4.1.xsd=org/springframework/scheduling/config/spring-task-4.1.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-4.1.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/cache/spring-cache-4.0.xsd=org/springframework/cache/config/spring-cache-4.0.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/util/spring-util-4.2.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd=org/springframework/web/servlet/config/spring-mvc-3.0.xsd, http://www.springframework.org/schema/beans/spring-beans-4.0.xsd=org/springframework/beans/factory/xml/spring-beans-4.0.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-4.2.xsd, http://www.springframework.org/schema/security/spring-security-2.0.4.xsd=org/springframework/security/config/spring-security-2.0.4.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/task/spring-task-4.0.xsd=org/springframework/scheduling/config/spring-task-4.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-4.0.xsd=org/springframework/transaction/config/spring-tx-4.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/security/spring-security-3.2.xsd=org/springframework/security/config/spring-security-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/util/spring-util-4.1.xsd=org/springframework/beans/factory/xml/spring-util-4.1.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-4.2.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/context/spring-context-4.2.xsd=org/springframework/context/config/spring-context-4.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/security/spring-security-3.1.xsd=org/springframework/security/config/spring-security-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/util/spring-util-4.0.xsd=org/springframework/beans/factory/xml/spring-util-4.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/security/spring-security-4.0.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-4.2.xsd=org/springframework/jdbc/config/spring-jdbc-4.2.xsd, http://www.springframework.org/schema/mvc/spring-mvc-4.2.xsd=org/springframework/web/servlet/config/spring-mvc-4.2.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-4.1.xsd, http://www.springframework.org/schema/security/spring-security-2.0.2.xsd=org/springframework/security/config/spring-security-2.0.2.xsd, http://www.springframework.org/schema/lang/spring-lang-4.2.xsd=org/springframework/scripting/config/spring-lang-4.2.xsd, http://www.springframework.org/schema/context/spring-context-4.1.xsd=org/springframework/context/config/spring-context-4.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-4.2.xsd=org/springframework/beans/factory/xml/spring-tool-4.2.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/security/spring-security.xsd=org/springframework/security/config/spring-security-4.0.xsd, http://www.springframework.org/schema/security/spring-security-3.0.xsd=org/springframework/security/config/spring-security-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-4.2.xsd=org/springframework/ejb/config/spring-jee-4.2.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.2.xsd=org/springframework/jdbc/config/spring-jdbc-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-4.1.xsd}
+10:04:05,135 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-4.2.xsd
+10:04:05,321 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd] in classpath: org/springframework/web/servlet/config/spring-mvc-4.0.xsd
+10:04:05,368 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-4.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-4.0.xsd
+10:04:05,389 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/context/spring-context.xsd] in classpath: org/springframework/context/config/spring-context-4.2.xsd
+10:04:05,399 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/tx/spring-tx-4.0.xsd] in classpath: org/springframework/transaction/config/spring-tx-4.0.xsd
+10:04:05,419 {DEBUG} PluggableSchemaResolver.resolveEntity:119 - Found XML schema [http://www.springframework.org/schema/security/spring-security-4.0.xsd] in classpath: org/springframework/security/config/spring-security-4.0.xsd
+10:04:05,516 {DEBUG} DefaultBeanDefinitionDocumentReader.registerBeanDefinitions:92 - Loading bean definitions
+10:04:05,569 {DEBUG} DefaultNamespaceHandlerResolver.getHandlerMappings:157 - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/mvc=org.springframework.web.servlet.config.MvcNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/security=org.springframework.security.config.SecurityNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+10:04:05,999 {DEBUG} StandardEnvironment.addLast:109 - Adding [systemProperties] PropertySource with lowest search precedence
+10:04:05,999 {DEBUG} StandardEnvironment.addLast:109 - Adding [systemEnvironment] PropertySource with lowest search precedence
+10:04:05,999 {DEBUG} StandardEnvironment.<init>:126 - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+10:04:06,025 {DEBUG} ClassPathBeanDefinitionScanner.registerDefaultFilters:244 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+10:04:06,050 {DEBUG} PathMatchingResourcePatternResolver.doFindMatchingFileSystemResources:631 - Looking for matching resources in directory tree [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java]
+10:04:06,051 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,055 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,056 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,057 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\accessors] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,058 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,059 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\helpers] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,060 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,061 {DEBUG} PathMatchingResourcePatternResolver.doRetrieveMatchingFiles:693 - Searching directory [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\services] for files matching pattern [D:/PROGRAMS/Eclipse/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/shop/WEB-INF/classes/edu/shop/java/**/*.class]
+10:04:06,066 {DEBUG} PathMatchingResourcePatternResolver.findPathMatchingResources:424 - Resolved location pattern [classpath*:edu/shop/java/**/*.class] to resources [file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers\HomeController.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers\ProductController.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers\UserController.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\accessors\DatabaseDatasourceAccessor.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\accessors\FileDatasourceAccessor.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\FileAbstractDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\HibernateAbstractDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\OrderDatabaseDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\OrderFileDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductCategoryDatabaseDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductCategoryFileDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductDatabaseDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductFileDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\RoleDatabaseDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\RoleFileDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\UserDatabaseDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\UserFileDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\itemDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\OrderDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\ProductCategoryDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\ProductDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\RoleDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\UserDao.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\helpers\PasswordHelper.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\Model.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\Order.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\Product.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\ProductCategory.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\Role.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\RoleList.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\models\User.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\services\ProductService.class], file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\services\UserService.class]]
+10:04:06,149 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers\HomeController.class]
+10:04:06,150 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\controllers\ProductController.class]
+10:04:06,156 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\OrderDatabaseDao.class]
+10:04:06,157 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\OrderFileDao.class]
+10:04:06,159 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductCategoryDatabaseDao.class]
+10:04:06,160 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductDatabaseDao.class]
+10:04:06,161 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\ProductFileDao.class]
+10:04:06,162 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\RoleDatabaseDao.class]
+10:04:06,163 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\RoleFileDao.class]
+10:04:06,164 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\UserDatabaseDao.class]
+10:04:06,165 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\dao\impl\UserFileDao.class]
+10:04:06,170 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\helpers\PasswordHelper.class]
+10:04:06,184 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\services\ProductService.class]
+10:04:06,191 {DEBUG} ClassPathBeanDefinitionScanner.findCandidateComponents:286 - Identified candidate component class: file [D:\PROGRAMS\Eclipse\workspace\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\shop\WEB-INF\classes\edu\shop\java\services\UserService.class]
+10:04:06,221 {ERROR} ContextLoader.initWebApplicationContext:331 - Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from ServletContext resource [/WEB-INF/shopmvc-servlet.xml]; nested exception is java.lang.NoClassDefFoundError: org/springframework/web/cors/CorsConfigurationSource
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:414)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:604)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:509)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5189)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1403)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/cors/CorsConfigurationSource
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2268)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.servlet.config.ResourcesBeanDefinitionParser.registerResourceHandler(ResourcesBeanDefinitionParser.java:165)
+	at org.springframework.web.servlet.config.ResourcesBeanDefinitionParser.parse(ResourcesBeanDefinitionParser.java:93)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:168)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:138)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.cors.CorsConfigurationSource
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	... 39 more
+лист. 24, 2016 10:04:06 AM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanDefinitionStoreException: Unexpected exception parsing XML document from ServletContext resource [/WEB-INF/shopmvc-servlet.xml]; nested exception is java.lang.NoClassDefFoundError: org/springframework/web/cors/CorsConfigurationSource
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:414)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:336)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:604)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:509)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4727)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5189)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1403)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoClassDefFoundError: org/springframework/web/cors/CorsConfigurationSource
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClassInternal(WebappClassLoaderBase.java:2268)
+	at org.apache.catalina.loader.WebappClassLoaderBase.findClass(WebappClassLoaderBase.java:811)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1254)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.springframework.web.servlet.config.ResourcesBeanDefinitionParser.registerResourceHandler(ResourcesBeanDefinitionParser.java:165)
+	at org.springframework.web.servlet.config.ResourcesBeanDefinitionParser.parse(ResourcesBeanDefinitionParser.java:93)
+	at org.springframework.beans.factory.xml.NamespaceHandlerSupport.parse(NamespaceHandlerSupport.java:74)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1411)
+	at org.springframework.beans.factory.xml.BeanDefinitionParserDelegate.parseCustomElement(BeanDefinitionParserDelegate.java:1401)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.parseBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:168)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.doRegisterBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:138)
+	at org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader.registerBeanDefinitions(DefaultBeanDefinitionDocumentReader.java:94)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.registerBeanDefinitions(XmlBeanDefinitionReader.java:508)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:392)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: org.springframework.web.cors.CorsConfigurationSource
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1285)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	... 39 more
+
+лист. 24, 2016 10:04:06 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+лист. 24, 2016 10:04:06 AM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/education] startup failed due to previous errors
+10:04:06,289 {INFO} XmlWebApplicationContext.doClose:951 - Closing Root WebApplicationContext: startup date [Thu Nov 24 10:04:04 EET 2016]; root of context hierarchy
+лист. 24, 2016 10:04:06 AM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+10:04:06,314 {WARN} XmlWebApplicationContext.doClose:969 - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: LifecycleProcessor not initialized - call 'refresh' before invoking lifecycle methods via the context: Root WebApplicationContext: startup date [Thu Nov 24 10:04:04 EET 2016]; root of context hierarchy
+	at org.springframework.context.support.AbstractApplicationContext.getLifecycleProcessor(AbstractApplicationContext.java:414)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:966)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:925)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1403)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+лист. 24, 2016 10:04:06 AM org.apache.catalina.core.StandardContext listenerStop
+SEVERE: Exception sending context destroyed event to listener instance of class org.springframework.web.context.ContextLoaderListener
+java.lang.IllegalStateException: BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.getBeanFactory(AbstractRefreshableApplicationContext.java:170)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:997)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:925)
+	at org.springframework.web.context.ContextLoader.closeWebApplicationContext(ContextLoader.java:579)
+	at org.springframework.web.context.ContextLoaderListener.contextDestroyed(ContextLoaderListener.java:115)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:154)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1403)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+лист. 24, 2016 10:04:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [http-nio-8080]
+лист. 24, 2016 10:04:06 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler [ajp-nio-8009]
+лист. 24, 2016 10:04:06 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 11009 ms
